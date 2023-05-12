@@ -1,7 +1,6 @@
 name : Sequence Deployments
 
-on:
-  push:
+on: push
 
 jobs:
   lint:
@@ -35,6 +34,7 @@ jobs:
         run: npm run build
   deploy:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploying...
         run: echo "Deploy completed!"

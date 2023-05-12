@@ -1,7 +1,6 @@
 name : Parallel Deployments
 
-on:
-  push:
+on: push
 
 jobs:
   my-deploy:
