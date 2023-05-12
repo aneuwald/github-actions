@@ -1,2 +1,6 @@
 on:
   issues:
+
+jobs:
+  event-details:
+    

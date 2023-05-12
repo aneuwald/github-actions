@@ -1,3 +1,5 @@
+name : Parallel Deployments
+
 on:
   push:
 
